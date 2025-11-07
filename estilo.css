@@ -1,0 +1,156 @@
+h1{
+color: rgb(20, 20, 20);
+font-size: 70px;
+font-weight: bold;
+text-align: center;
+box-shadow: 0 4px 10px #c71065ef ;
+
+}
+h2{
+color: rgb(20, 20, 20);
+font-size: 40px;
+font-weight: bold;
+text-align: center;
+box-shadow: 0 4px 10px #c71065ef;
+
+}
+p{
+    color: rgb(20, 20, 20);
+    font-size: 24px;
+    font-weight: 300;
+}
+body{
+
+    background-color: rgba(231, 215, 215, 0.938);
+}
+    .Capa{
+width: 100vw;
+height: 750px;
+
+
+
+    }
+    .imagemcapa{
+        width: 100%;
+        height: 100%;
+    }
+    .Texto{
+        color: blue;
+    }
+    .video{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .yt{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .imagem{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .lista{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .lista1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 25px;
+
+    }
+    .imagem1{
+         display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 25px;
+    }
+    .corpo{
+        margin: 100px 250px 120px 250px;
+    }
+    .img{
+        width: 800px;
+        height: 400px;
+    }
+    .img1{
+        width: 400px;
+        height: 400px;
+    }
+    .img1{
+        width: 400px;
+        height: 400px;
+    }
+
+    .ods{
+    
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.lista1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+    margin: 20px 0;
+    padding: 0;
+    list-style: none;
+}
+.lista a {
+    text-decoration: none;
+    color: #0b3300;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 12px 24px;
+    border-radius: 15px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s;
+}
+
+.lista1 a:hover {
+    background-color: #f00673ef;
+    color: #f5ecf0ef;
+    transform: scale(1.08);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+}
+
+.buton a:hover {
+    background-color: #f00673ef;
+    color:#f00673ef;
+    transform: scale(1.08);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+    color: white;
+}
+.buton a {
+   
+    text-decoration: none;
+    color: #0b3300;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 10px 24px;
+    border-radius: 15px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s;
+}
+.buton {
+    position: fixed;         
+    bottom: 20px;             /* Distância do rodapé */
+    left: 150px;              /* Distância da lateral direita */
+    z-index: 1000;            /* Fica acima de outros elementos */
+}
